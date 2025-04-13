@@ -1,0 +1,9 @@
+basePath: /api/v1
+host: localhost:8080
+info:
+  contact: {}
+  description: API для работы с системой маркировки товаров
+  title: Project ZNAK API
+  version: "1.0"
+paths: {}
+swagger: "2.0"
