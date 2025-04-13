@@ -83,7 +83,6 @@ make docker-run
 
 Сервер будет доступен по адресу: http://localhost:8080
 
-## Деплой в продакшен
 
 ### Подготовка сервера
 
@@ -109,16 +108,7 @@ sudo mkdir -p /etc/letsencrypt/live/your-domain.com
 # Поместите сертификаты в директорию
 ```
 
-### Настройка GitHub Secrets
 
-1. Перейдите в настройки репозитория
-2. Выберите "Secrets and variables" -> "Actions"
-3. Добавьте следующие секреты:
-   - `DOCKERHUB_USERNAME`: Ваш логин в Docker Hub
-   - `DOCKERHUB_TOKEN`: Токен доступа Docker Hub
-   - `PRODUCTION_HOST`: IP или домен продакшен сервера
-   - `PRODUCTION_USERNAME`: Пользователь для SSH
-   - `PRODUCTION_SSH_KEY`: Приватный SSH ключ
 
 ### Мониторинг
 
